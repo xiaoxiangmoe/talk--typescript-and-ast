@@ -1,0 +1,78 @@
+
+
+# TypeScript and AST
+
+—— ZHAO Jinxiang
+
+---
+
+## What this talk is
+
+
+* Basic introduction to Abstract Syntax Trees
+* Some demo of how to use ASTs with babel, eslint, tslint and TypeScript
+* Writing a TypeScript Macro.
+
+---
+
+## What this talk is not
+
+* Deep dive into parsing and lexing
+* Everything you need to know to be productive with ASTs
+
+---
+
+## Some AST usage example
+
+* [GitHub - lodash/babel-plugin-lodash: Modular Lodash builds without the hassle.](https://github.com/lodash/babel-plugin-lodash)
+* [GitHub - oliviertassinari/babel-plugin-transform-react-remove-prop-types: Remove unnecessary React propTypes from the production build.](https://github.com/oliviertassinari/babel-plugin-transform-react-remove-prop-types)
+* [GitHub - Brooooooklyn/ts-import-plugin: babel-import-plugin TypeScript Implement](https://github.com/Brooooooklyn/ts-import-plugin)
+* [GitHub - kentcdodds/babel-plugin-macros: 🎣 Enables zero-config, importable babel plugins](https://github.com/kentcdodds/babel-plugin-macros)
+* [GitHub - palantir/tslint: An extensible linter for the TypeScript language](https://github.com/palantir/tslint)
+* [GitHub - xiaoxiangmoe/typescript-macros](https://github.com/xiaoxiangmoe/typescript-macros/)
+
+---
+
+## Why AST?
+
+better than find/replace
+
+no matter how good your regex skill are.
+
+---
+
+## How to learn AST?
+
+Lacking resource about typescript's ast, we should read some materials about babel's ast.
+
+* Writing custom Babel and ESLint plugins with ASTs: A 53 minute talk by @kentcdodds
+* babel-handbook: A guided handbook on how to use Babel and how to create plugins for Babel by @thejameskyle
+* Code Transformation and Linting: A workshop (recording available on Frontend Masters) with exercises of making custom Babel and ESLint plugins
+
+---
+
+## Visualize AST
+
+* [JointJS - JavaScript diagramming library - Demos.](https://resources.jointjs.com/demos/javascript-ast)
+* [AST explorer](https://astexplorer.net/)
+
+---
+
+## Real Example
+
+* [typescript-macros/examples/uppercase.tsmacro at master · xiaoxiangmoe/typescript-macros · GitHub](https://github.com/xiaoxiangmoe/typescript-macros/tree/master/examples/uppercase.tsmacro)
+
+---
+
+## Homework
+
+* Writing a ts-lint rule
+* Writing a runtime params type check typescript-macro
+
+---
+
+## The End
+
+inspired by [YouTube - Writing custom Babel and ESLint plugins with ASTs (Open West 2017)
+](https://www.youtube.com/watch?v=VBscbcm2Mok&feature=youtu.be&list=PLV5CVI1eNcJgNqzNwcs4UKrlJdhfDjshf)
+

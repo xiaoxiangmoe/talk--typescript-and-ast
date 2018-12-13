@@ -1,0 +1,15 @@
+{
+  "private": true,
+  "name": "@-.-/talk--typescript-and-ast",
+  "version": "0.1.0",
+  "repository": "https://github.com/xiaoxiangmoe/talk--typescript-and-ast.git",
+  "author": "ZHAO Jinxiang <xiaoxiangmoe@gmail.com>",
+  "license": "MIT",
+  "scripts": {
+    "start": "mdx-deck presentation/index.mdx",
+    "build": "mdx-deck build presentation/index.mdx"
+  },
+  "dependencies": {
+    "mdx-deck": "^1.8.2"
+  }
+}
